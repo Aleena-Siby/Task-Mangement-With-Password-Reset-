@@ -1,0 +1,36 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-color: #007bff;
+}
+
+.signup-input {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-right:35px;
+}
+
+.loginButton {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.signup-message {
+  color: green;
+}
+ 

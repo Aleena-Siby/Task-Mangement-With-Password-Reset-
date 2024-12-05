@@ -1,0 +1,93 @@
+body {
+  background-color: #EDE8F5; /* Very Light Blue for the page background */
+  font-family: Arial, sans-serif; /* Clean font for readability */
+  margin: 0;
+  padding: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center; /* Center the login form */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full height of the viewport */
+  background: linear-gradient(to right, #3D52A0, #7091E6); /* Gradient background */
+}
+
+.mydiv {
+  background-color: #FFFFFF; /* White background for the login box */
+ padding-top: 30px; 
+ padding-bottom: 30px;/* Add padding around the content */
+ padding-left:28px;
+ padding-right: 50px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  width: 320px; /* Fixed width for the form */
+}
+
+h2 {
+  color: #3D52A0; /* Dark Blue for the heading */
+  text-align: center; /* Center the heading text */
+}
+
+.login-error {
+  color: #F4976C; /* Change to coral or another color for error messages */
+  text-align: center; /* Center error message */
+}
+
+label {
+  display: block; /* Makes labels block elements */
+  margin-bottom: 5px; /* Space between label and input */
+  color: #3D52A0; /* Dark Blue for labels */
+}
+
+.login-input {
+  width: 100%; /* Full width input fields */
+  padding: 10px; /* Padding for input fields */
+  
+  border: 2px solid #8697C4; /* Light Blue border for input fields */
+  border-radius: 5px; /* Rounded corners for input fields */
+  margin-bottom: 15px; /* Space between inputs */
+  transition: border-color 0.3s;
+
+  
+   /* Smooth transition for border color */
+}
+
+.login-input:focus {
+  border-color: #7091E6; /* Bright Blue on focus */
+  outline: none; /* Remove default outline */
+}
+
+.login-button {
+  background-color: #3D52A0; /* Dark Blue background for button */
+  color: white; /* White text color for button */
+  padding: 10px; /* Padding for the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  width: 100%; /* Full width button */
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.login-button:hover {
+  background-color: #7091E6; /* Bright Blue on hover for button */
+}
+
+.login-link {
+  background: none; /* No background for the link button */
+  border: none; /* No border */
+  color: #3D52A0; /* Dark Blue color for the link */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.login-link:hover {
+  text-decoration: underline; /* Underline effect on hover */
+}
+
+.forgot-password-link
+{
+  font-style: italic;
+ 
+ 
+  
+}
